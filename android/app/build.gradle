@@ -70,10 +70,10 @@ flutter {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation files('lib/Android_Map3D_SDK_V6.8.0_20190401.jar')
+    implementation files('lib/AMap3DMap_6.8.0_AMapNavi_6.7.0_AMapLocation_4.5.1_20190402.jar')
 }
